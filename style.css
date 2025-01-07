@@ -1,0 +1,90 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navBar{
+    height: 50px;
+    background-color: blue;
+}
+.mainNavbar{
+    list-style-type: none;
+    margin-top:10px;
+    margin-left: 30%;
+    display: inline-block;
+    width: 60%;
+    /* background-color: blue; */
+}
+
+.navItem{
+    display: inline-block;
+    /* float: left; */
+    
+}
+.navList{
+    color: white;
+}
+.navList:link{
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+    margin: 30px 30px;
+
+}
+a.navList:hover{
+    /* text-decoration:underline; */
+    border-bottom: 2px solid black;
+    color: black;
+}
+a.navList:active{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+a.navList.visited{
+    color: black;
+    background-color: bisque;
+}
+.active{
+    font-weight: bolder;
+}
+/* .iconInNavbar{
+    font-size: x-large;
+    padding: 30px 40px;
+} */
+ .greetingContainer{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    right: 20%;
+    background-color: white;
+    border-radius: 5%;
+    
+ }
+ .good{
+    color: #006C95;
+ }
+
+ .cardtext p {
+    margin: 0%;
+    padding-left: 1rem;
+ }
+ .cards{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+   
+ }
+ .information{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5%;
+ }
+ .choose{
+     margin-top: 6rem;
+     text-align: center;
+ }
+ .GivenInfo{
+    display: flex;
+    margin-left: 250px;
+ }
+ 
